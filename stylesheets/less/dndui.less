@@ -73,23 +73,25 @@ mod_ND : BEGIN
 
 /* modifications nécessaires à l'affichage correct du mode édition avec le theme_unil */
 
-body#page-question-type-matrix #fgroup_id_matrix fieldset {
-    margin-left: 0;
-}
+body#page-question-type-matrix {
+    #fgroup_id_matrix fieldset {
+        margin-left: 0;
+    }
 
-body#page-question-type-matrix #page-content {
-    overflow-x: scroll;
-}
+    #page-content {
+        overflow-x: scroll;
+    }
 
-body#page-question-type-matrix div#region-main {
-    overflow-x: scroll;
-}
+    div#region-main {
+        overflow-x: scroll;
+    }
 
-#id_add_rows, #id_add_cols{
-  font-size: 22px;
-  background-color: white;
-  color: black;
-  padding: 0px 5px 5px 5px;
+    #id_add_rows, #id_add_cols {
+        font-size: 22px;
+        background-color: white;
+        color: black;
+        padding: 0px 5px 5px 5px;
+    }
 }
 
 /*
